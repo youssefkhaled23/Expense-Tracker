@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+# Expense Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+- [About](#about)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-In the project directory, you can run:
+## About
 
-### `npm start`
+Expense Tracker is a web application built with React that helps you keep track of your income and expenses. It allows you to add, view, and delete transactions, providing a clear summary of your financial status.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Add new income and expense transactions
+- View a list of all transactions
+- Delete transactions
+- View total balance, total income, and total expenses
+- Responsive design for mobile and desktop
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend:**
+  - React
+  - JavaScript (ES6+)
+  - HTML5
+  - CSS3
+- **State Management:**
+  - React Context API
+- **Other Libraries:**
+  - UUID (for unique transaction IDs)
 
-### `npm run build`
+## Setup and Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Make sure you have the following installed:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/youssefkhaled23/Expense-Tracker.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd expense-tracker
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+   or if you're using Yarn:
+   ```bash
+   yarn install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Running the Application
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Start the development server:
+   ```bash
+   npm start
+   ```
+   or with Yarn:
+   ```bash
+   yarn start
+   ```
+2. Open your browser and navigate to `http://localhost:3000`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
+1. **Adding a Transaction:**
+   - Enter the transaction details (text and amount).
+   - Click on the "Add Transaction" button.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. **Deleting a Transaction:**
+   - Click on the delete icon next to the transaction you want to remove.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Viewing the Summary:**
+   - The balance, total income, and total expense are displayed at the top of the page.
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions are welcome! Please follow these steps:
 
-### Analyzing the Bundle Size
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Open a Pull Request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contact
 
-### Advanced Configuration
+- **Author:** YoussefKhaled
+- **Email:** khaledalsbaa2@gmail.com
+- **GitHub:** [youssefkhaled23](https://github.com/youssefkhaled23)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to customize it according to your specific project details, such as adding any additional features, dependencies, or instructions relevant to your Expense Tracker application.
